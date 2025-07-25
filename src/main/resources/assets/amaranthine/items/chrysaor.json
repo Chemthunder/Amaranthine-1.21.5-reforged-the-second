@@ -1,0 +1,23 @@
+{
+     "model": {
+          "type": "select",
+          "cases": [
+               {
+                    "model": {
+                         "type": "model",
+                         "model": "amaranthine:item/chrysaor_gui"
+                    },
+                    "when": [
+                         "gui",
+                         "ground",
+                         "fixed"
+                    ]
+               }
+          ],
+          "fallback": {
+               "type": "model",
+               "model": "amaranthine:item/chrysaor"
+          },
+          "property": "display_context"
+     }
+}

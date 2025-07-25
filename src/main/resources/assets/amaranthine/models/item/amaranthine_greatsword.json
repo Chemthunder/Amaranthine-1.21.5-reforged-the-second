@@ -1,0 +1,28 @@
+{
+     "parent": "item/handheld",
+     "textures": {
+          "layer0": "amaranthine:item/amaranthine_greatsword"
+     },
+     "display": {
+          "thirdperson_righthand": {
+               "rotation": [-45.5, -90, 0],
+               "translation": [0, 10.5, 1],
+               "scale": [1.72, 1.72, 1.72]
+          },
+          "thirdperson_lefthand": {
+               "rotation": [-45.5, 90, 0],
+               "translation": [0, 10.5, 1],
+               "scale": [1.72, 1.72, 1.72]
+          },
+          "firstperson_righthand": {
+               "rotation": [0, -90, 35],
+               "translation": [1.13, 2.45, 0.88],
+               "scale": [1.39, 1.39, 1.39]
+          },
+          "firstperson_lefthand": {
+               "rotation": [0, 90, -35],
+               "translation": [1.13, 2.45, 0.88],
+               "scale": [1.39, 1.39, 1.39]
+          }
+     }
+}

@@ -1,0 +1,18 @@
+{
+     "type": "minecraft:crafting_shaped",
+     "pattern": [
+          "  A",
+          "BN ",
+          "SB "
+     ],
+     "key": {
+          "B": "minecraft:blackstone",
+          "A": "amaranthine:amaranthine_shard",
+          "N": "minecraft:gold_ingot",
+          "S": "minecraft:netherite_sword"
+     },
+     "result": {
+          "id": "amaranthine:amaranthine_greatsword"
+     },
+     "show_notification": true
+}

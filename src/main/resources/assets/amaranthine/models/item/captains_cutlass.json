@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "amaranthine:item/captains_cutlass"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 55],
+			"translation": [0, 8, 3.25],
+			"scale": [1.18, 1.18, 1.18]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, -55],
+			"translation": [0, 8, 3.25],
+			"scale": [1.18, 1.18, 1.18]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 47],
+			"translation": [1.13, 6.45, 2.13],
+			"scale": [0.78, 0.78, 0.78]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, -47],
+			"translation": [1.13, 6.45, 2.13],
+			"scale": [0.78, 0.78, 0.78]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0],
+			"scale": [0.63, 0.63, 0.63]
+		}
+	}
+}

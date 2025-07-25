@@ -1,0 +1,12 @@
+{
+     "type": "minecraft:crafting_shapeless",
+     "category": "misc",
+     "ingredients": [
+          "amaranthine:crystalmallow",
+          "minecraft:stick"
+     ],
+     "result": {
+          "id": "amaranthine:crystalmallow_on_a_stick",
+          "count": 1
+     }
+}

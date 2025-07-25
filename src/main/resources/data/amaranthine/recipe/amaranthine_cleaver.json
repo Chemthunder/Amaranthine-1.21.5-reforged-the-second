@@ -1,0 +1,21 @@
+{
+     "type": "minecraft:crafting_shaped",
+     "category": "equipment",
+     "pattern": [
+          "  C",
+          " A ",
+          "N  "
+     ],
+     "key": {
+          "C": "minecraft:gold_ingot",
+          "A": "amaranthine:amaranthine_shard",
+          "N": [
+               "netherite_axe",
+               "diamond_axe"
+          ]
+     },
+     "result": {
+          "id": "amaranthine:amaranthine_cleaver"
+     },
+     "show_notification": false
+}

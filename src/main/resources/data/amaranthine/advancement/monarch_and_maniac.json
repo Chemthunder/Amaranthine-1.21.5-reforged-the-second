@@ -1,0 +1,28 @@
+{
+     "display": {
+          "icon": {
+               "id": "amaranthine:amaranthine_shard"
+          },
+          "title": {
+               "translate": "advancement.amaranthine.monarch_and_maniac"
+          },
+          "description": {
+               "translate": "advancement.amaranthine.monarch_and_maniac.desc",
+               "color": "#5c543d"
+          },
+          "frame": "goal"
+     },
+     "parent": "amaranthine:root",
+     "criteria": {
+          "obtain_greatsword": {
+               "trigger": "minecraft:inventory_changed",
+               "conditions": {
+                    "items": [
+                         {
+                              "items": "amaranthine:amaranthine_greatsword"
+                         }
+                    ]
+               }
+          }
+     }
+}

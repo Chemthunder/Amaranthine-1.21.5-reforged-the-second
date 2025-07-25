@@ -1,0 +1,51 @@
+{
+     "item.amaranthine.amaranthine_greatsword": "Amaranthine Greatsword",
+     "item.amaranthine.amaranthine_shard": "Amaranthine Shard",
+     "item.amaranthine.amaranthine_cleaver": "Mortician's Cleaver",
+
+     "item.amaranthine.blind_obedience": "Blind Obedience",
+     "item.amaranthine.blind_obedience.desc": "A fragmented dream of a former monarch.",
+
+     "item.amaranthine.chem_cookie": "Chem Cookie",
+
+     "item.amaranthine.chrysaor": "Chrysaor",
+     "item.amaranthine.chrysaor.desc": "The true extent of Amaranthine Weaponry.",
+
+     "item.amaranthine.apollo": "Apollo",
+     "item.amaranthine.apollo.desc": "WITNESS THE TRUE POWER OF AMARANTHINE, CRYSTAL OF THE SUN.",
+
+     "item.amaranthine.arc_cookie": "Arc Cookie",
+     "item.amaranthine.arc_cookie_breeze": "Arc Cookie",
+
+     "item.amaranthine.captains_cutlass": "Captain's Cutlass",
+
+     "effect.amaranthine.fractured": "Fractured",
+     "effect.amaranthine.disorientated": "Disorientated",
+
+     "death.attack.impaled": "%1$s was impaled with crystals",
+     "death.attack.impaled.player": "%1$s was impaled with crystals by %2$s",
+
+     "death.attack.cleaver": "%1$s lost their head",
+     "death.attack.cleaver.player": "%1$s was decapitated by %2$s",
+
+     "item.amaranthine.amaranthine_dust": "Amaranthine Dust",
+
+     "enchantment.amaranthine.splinter": "Splinter",
+     "enchantment.amaranthine.splinter.desc": "Impales attacked enemies with crystals, damaging them over time.",
+     "splinter.desc": "Impales attacked enemies with crystals, damaging them over time.",
+
+     "advancement.amaranthine.monarch_and_maniac": "A Monarch and a Maniac",
+     "advancement.amaranthine.monarch_and_maniac.desc": "Obtain an Amaranthine Greatsword",
+
+     "advancement.amaranthine.butcher_vanity": "A Butcher's Vanity",
+     "advancement.amaranthine.butcher_vanity.desc": "Obtain an Amaranthine Cleaver",
+
+     "advancement.amaranthine.deceiving": "Looks are Deceiving",
+     "advancement.amaranthine.deceiving.desc": "Take a munch on a Chem Cookie, good choice!",
+
+     "advancement.amaranthine.root": "Amaranthine",
+     "advancement.amaranthine.root.desc": "Valiance, Armory, Harmony",
+
+     "advancement.amaranthine.sniffing": "You shouldn't be eating that...",
+     "advancement.amaranthine.sniffing.desc": "Consume some Amaranthine Dust, now rethink what you've done"
+}

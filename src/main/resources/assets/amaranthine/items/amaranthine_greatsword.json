@@ -1,0 +1,23 @@
+{
+     "model": {
+          "type": "select",
+          "cases": [
+               {
+                    "model": {
+                         "type": "model",
+                         "model": "amaranthine:item/amaranthine_greatsword_gui"
+                    },
+                    "when": [
+                         "gui",
+                         "ground",
+                         "fixed"
+                    ]
+               }
+          ],
+          "fallback": {
+               "type": "model",
+               "model": "amaranthine:item/amaranthine_greatsword"
+          },
+          "property": "display_context"
+     }
+}

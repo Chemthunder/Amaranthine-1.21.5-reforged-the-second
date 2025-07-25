@@ -1,0 +1,24 @@
+{
+     "display": {
+          "icon": {
+               "id": "amaranthine:amaranthine_dust"
+          },
+          "title": {
+               "translate": "advancement.amaranthine.sniffing"
+          },
+          "description": {
+               "translate": "advancement.amaranthine.sniffing.desc"
+          }
+     },
+     "parent": "amaranthine:root",
+     "criteria": {
+          "eat_dust": {
+               "trigger": "minecraft:consume_item",
+               "conditions": {
+                    "item": {
+                         "items": "amaranthine:amaranthine_dust"
+                    }
+               }
+          }
+     }
+}

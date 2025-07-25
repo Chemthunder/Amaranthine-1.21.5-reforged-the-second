@@ -1,0 +1,21 @@
+{
+     "type": "minecraft:crafting_shaped",
+     "pattern": [
+          "  B",
+          "GK ",
+          "SI "
+     ],
+     "key": {
+          "B": "minecraft:bone_block",
+          "G": "minecraft:gold_ingot",
+          "I": "minecraft:iron_ingot",
+          "S": [
+               "minecraft:diamond_sword",
+               "netherite_sword"
+          ],
+          "K": "minecraft:skeleton_skull"
+     },
+     "result": {
+          "id": "amaranthine:captains_cutlass"
+     }
+}

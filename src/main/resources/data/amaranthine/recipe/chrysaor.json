@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SQN",
+    "BGQ",
+    "ABS"
+  ],
+  "key": {
+    "Q": "amaranthine:amaranthine_shard",
+    "N": "minecraft:netherite_sword",
+    "G": "minecraft:gold_block",
+    "A": "amaranthine:amaranthine_greatsword",
+    "B": "minecraft:blackstone",
+    "S": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "id": "amaranthine:chrysaor",
+    "count": 1
+  },
+  "show_notification": true
+}

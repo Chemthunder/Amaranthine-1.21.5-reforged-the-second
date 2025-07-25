@@ -1,0 +1,20 @@
+{
+     "type": "minecraft:crafting_shaped",
+     "pattern": [
+          " GG",
+          "GAG",
+          "GG "
+     ],
+     "key": {
+          "G": [
+               "minecraft:gold_nugget"
+          ],
+          "A": [
+               "minecraft:amethyst_shard"
+          ]
+     },
+     "result": {
+          "id": "amaranthine:amaranthine_shard"
+     },
+     "show_notification": true
+}

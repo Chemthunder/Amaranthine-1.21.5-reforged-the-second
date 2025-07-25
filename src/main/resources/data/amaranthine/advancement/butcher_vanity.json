@@ -1,0 +1,28 @@
+{
+     "display": {
+          "icon": {
+               "id": "amaranthine:amaranthine_cleaver"
+          },
+          "title": {
+               "translate": "advancement.amaranthine.butcher_vanity"
+          },
+          "description": {
+               "translate": "advancement.amaranthine.butcher_vanity.desc",
+               "color": "#5c543d"
+          },
+          "frame": "goal"
+     },
+     "parent": "amaranthine:root",
+     "criteria": {
+          "obtain_cleaver": {
+               "trigger": "minecraft:inventory_changed",
+               "conditions": {
+                    "items": [
+                         {
+                              "items": "amaranthine:amaranthine_cleaver"
+                         }
+                    ]
+               }
+          }
+     }
+}

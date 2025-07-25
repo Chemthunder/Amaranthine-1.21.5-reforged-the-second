@@ -1,0 +1,10 @@
+{
+     "type": "minecraft:stonecutting",
+     "ingredient": [
+          "amaranthine:amaranthine_shard"
+     ],
+     "result": {
+          "id": "amaranthine:amaranthine_dust",
+          "count": 4
+     }
+}

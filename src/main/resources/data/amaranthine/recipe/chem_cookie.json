@@ -1,0 +1,11 @@
+{
+     "type": "minecraft:stonecutting",
+     "ingredient": [
+          "minecraft:cookie",
+          "amaranthine:arc_cookie",
+          "amaranthine:arc_cookie_breeze"
+     ],
+     "result": {
+          "id": "amaranthine:chem_cookie"
+     }
+}

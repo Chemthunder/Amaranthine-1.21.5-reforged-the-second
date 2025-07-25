@@ -1,0 +1,24 @@
+{
+     "display": {
+          "icon": {
+               "id": "amaranthine:chem_cookie"
+          },
+          "title": {
+               "translate": "advancement.amaranthine.deceiving"
+          },
+          "description": {
+               "translate": "advancement.amaranthine.deceiving.desc"
+          }
+     },
+     "parent": "amaranthine:root",
+     "criteria": {
+          "eat_chem": {
+               "trigger": "minecraft:consume_item",
+               "conditions": {
+                    "item": {
+                         "items": "amaranthine:chem_cookie"
+                    }
+               }
+          }
+     }
+}

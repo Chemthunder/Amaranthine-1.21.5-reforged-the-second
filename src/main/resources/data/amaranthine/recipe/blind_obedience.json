@@ -1,0 +1,10 @@
+{
+     "type": "minecraft:smithing_transform",
+     "base": "amaranthine:chrysaor",
+     "addition": "minecraft:amethyst_cluster",
+     "template": "minecraft:silence_armor_trim_smithing_template",
+     "result": {
+          "id": "amaranthine:blind_obedience",
+          "count": 1
+     }
+}

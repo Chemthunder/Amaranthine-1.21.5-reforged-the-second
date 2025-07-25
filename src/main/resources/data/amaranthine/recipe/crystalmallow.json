@@ -1,0 +1,16 @@
+{
+     "type": "minecraft:crafting_shapeless",
+     "category": "misc",
+     "ingredients": [
+          "minecraft:sugar",
+          "amaranthine:amaranthine_dust",
+          [
+               "minecraft:wheat",
+               "minecraft:sugar_cane"
+          ]
+     ],
+     "result": {
+          "id": "amaranthine:crystalmallow",
+          "count": 4
+     }
+}

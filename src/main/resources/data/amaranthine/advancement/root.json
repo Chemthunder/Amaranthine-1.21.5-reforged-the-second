@@ -1,0 +1,20 @@
+{
+     "display": {
+          "icon": {
+               "id": "amaranthine:amaranthine_shard"
+          },
+          "title": {
+               "translate": "advancement.amaranthine.root"
+          },
+          "description": {
+               "translate": "advancement.amaranthine.root.desc"
+          },
+          "background": "amaranthine:misc/achievement_bg",
+          "hidden": false
+     },
+     "criteria": {
+          "tick": {
+               "trigger": "minecraft:tick"
+          }
+     }
+}

@@ -1,0 +1,23 @@
+{
+     "model": {
+          "type": "select",
+          "cases": [
+               {
+                    "model": {
+                         "type": "model",
+                         "model": "amaranthine:item/apollo_gui"
+                    },
+                    "when": [
+                         "gui",
+                         "ground",
+                         "fixed"
+                    ]
+               }
+          ],
+          "fallback": {
+               "type": "model",
+               "model": "amaranthine:item/apollo"
+          },
+          "property": "display_context"
+     }
+}

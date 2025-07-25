@@ -1,0 +1,35 @@
+{
+     "parent": "item/handheld",
+     "textures": {
+          "layer0": "amaranthine:item/chrysaor"
+     },
+     "display": {
+          "thirdperson_righthand": {
+               "rotation": [-45.5, -90, 0],
+               "translation": [0, 13.75, 1],
+               "scale": [1.76, 1.76, 1.76]
+          },
+          "thirdperson_lefthand": {
+               "rotation": [-45.5, 90, 0],
+               "translation": [0, 13.75, 1],
+               "scale": [1.76, 1.76, 1.76]
+          },
+          "firstperson_righthand": {
+               "rotation": [0, -90, 35],
+               "translation": [1.13, 5.95, 0.88],
+               "scale": [1.25, 1.25, 1.25]
+          },
+          "firstperson_lefthand": {
+               "rotation": [0, 90, -35],
+               "translation": [1.13, 5.95, 0.88],
+               "scale": [1.25, 1.25, 1.25]
+          },
+          "ground": {
+               "translation": [0, 2.75, 0],
+               "scale": [0.59, 0.59, 0.59]
+          },
+          "gui": {
+               "scale": [0.86, 0.86, 0.86]
+          }
+     }
+}
