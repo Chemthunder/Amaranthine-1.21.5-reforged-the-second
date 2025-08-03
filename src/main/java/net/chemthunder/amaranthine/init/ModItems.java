@@ -2,6 +2,7 @@ package net.chemthunder.amaranthine.init;
 
 import net.chemthunder.amaranthine.Amaranthine;
 import net.chemthunder.amaranthine.item.*;
+import net.chemthunder.amaranthine.item.cookie.*;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.component.type.FoodComponent;
@@ -28,17 +29,29 @@ public interface ModItems {
             .fireproof()
     );
 
-    Item CHEM_COOKIE = create("chem_cookie", Item::new, new Item.Settings()
+    Item CHEM_COOKIE = create("chem_cookie", ChemCookie::new, new Item.Settings()
             .food(new FoodComponent(5, 4, true))
     );
 
-    Item ARC_COOKIE = create("arc_cookie", Item::new, new Item.Settings()
+    Item ARC_COOKIE = create("arc_cookie", ArcCookie::new, new Item.Settings()
             .food(new FoodComponent(5, 4, true))
     );
 
-    Item ARC_COOKIE_BREEZE = create("arc_cookie_breeze", Item::new, new Item.Settings()
-            .food(new FoodComponent(5, 4, true))
+    Item ARC_COOKIE_BREEZE = create("arc_cookie_breeze", BreezeCookie::new, new Item.Settings()
+            .food(new FoodComponent(5, 4, true)
+            )
+            .maxCount(16)
     );
+
+    Item INKWELL_COOKIE = create("inkwell_cookie", InkwellCookie::new, new Item.Settings()
+            .food(new FoodComponent(5, 4, true)
+            )
+            .maxCount(16)
+            );
+
+    Item INTEL_COOKIE = create("intel_cookie", IntelCookie::new, new Item.Settings()
+            .food(new FoodComponent(5, 4, true))
+            .maxCount(16));
 
     Item CHRYSAOR = create("chrysaor", ChrysaorItem::new, new Item.Settings()
             .sword(ToolMaterial.NETHERITE, 4.0F, -2.7F)
@@ -59,20 +72,20 @@ public interface ModItems {
 
     Item BLIND_OBEDIENCE = create("blind_obedience", BlindObedienceItem::new, new Item.Settings()
             .sword(ToolMaterial.NETHERITE, 3.5f, -2.7f)
-            );
+    );
 
     Item CAPTAINS_CUTLASS = create("captains_cutlass", CutlassItem::new, new Item.Settings()
             .sword(ToolMaterial.NETHERITE, 2.5f, -2.3f)
             .maxCount(1)
             .maxDamage(99999)
             .fireproof()
-            );
+    );
 
 
     Item DAWNS_LIGHT = create("dawns_light", DawnsItem::new, new Item.Settings()
             .maxCount(1)
             .maxDamage(1)
-            );
+    );
 
 
     static Item create(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
@@ -119,5 +132,7 @@ public interface ModItems {
         entries.add(CHEM_COOKIE);
         entries.add(ARC_COOKIE);
         entries.add(ARC_COOKIE_BREEZE);
+        entries.add(INKWELL_COOKIE);
+        entries.add(INTEL_COOKIE);
     }
 }

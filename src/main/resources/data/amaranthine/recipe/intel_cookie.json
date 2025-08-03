@@ -1,0 +1,18 @@
+{
+     "type": "minecraft:crafting_shaped",
+     "category": "misc",
+     "pattern": [
+          "IRI",
+          "RCR",
+          "IRI"
+     ],
+     "key": {
+          "I": "minecraft:iron_nugget",
+          "R": "minecraft:redstone",
+          "C": "minecraft:cookie"
+     },
+     "result": {
+          "id": "amaranthine:intel_cookie",
+          "count": 1
+     }
+}

@@ -33,6 +33,14 @@
 
      "item.amaranthine.amaranthine_dust": "Amaranthine Dust",
 
+     "item.amaranthine.infused_cookie": "Infused Cookie",
+     "item.amaranthine.cookie.inkwell": "Inkwell",
+     "item.amaranthine.cookie.chem": "Chemthunder",
+     "item.amaranthine.cookie.arc": "ArcCM",
+     "item.amaranthine.cookie.breeze": "Breeze",
+     "item.amaranthine.cookie.intel": "Intel",
+
+
      "enchantment.amaranthine.splinter": "Splinter",
      "enchantment.amaranthine.splinter.desc": "Impales attacked enemies with crystals, damaging them over time.",
      "splinter.desc": "Impales attacked enemies with crystals, damaging them over time.",
