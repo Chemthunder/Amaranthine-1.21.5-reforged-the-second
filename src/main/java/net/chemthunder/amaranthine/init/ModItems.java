@@ -46,13 +46,8 @@ public interface ModItems {
             .fireproof()
     );
 
-    Item APOLLO = create("apollo", ApolloItem::new, new Item.Settings()
-            .sword(ToolMaterial.NETHERITE, 5.0f, -2.9f)
-            .fireproof()
-    );
-
     Item AMARANTHINE_CLEAVER = create("amaranthine_cleaver", CleaverItem::new, new Item.Settings()
-            .axe(ToolMaterial.NETHERITE, 2.5f, -2.5f)
+            .axe(ToolMaterial.NETHERITE, 3.0f, -2.5f)
             .rarity(Rarity.COMMON)
             .fireproof()
     );
@@ -74,6 +69,12 @@ public interface ModItems {
             );
 
 
+    Item DAWNS_LIGHT = create("dawns_light", DawnsItem::new, new Item.Settings()
+            .maxCount(1)
+            .maxDamage(1)
+            );
+
+
     static Item create(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
         return Items.register(RegistryKey.of(RegistryKeys.ITEM, Amaranthine.id(name)), factory, settings);
     }
@@ -86,7 +87,7 @@ public interface ModItems {
         modifyItemNameColor(CHRYSAOR, 0xA008D8);
         modifyItemNameColor(BLIND_OBEDIENCE, 0x0a0a0a);
         modifyItemNameColor(CAPTAINS_CUTLASS, 0x93E9BE);
-        modifyItemNameColor(APOLLO, 0xFFFFAC);
+        modifyItemNameColor(DAWNS_LIGHT, 0xFEF268);
 
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addCombatEntries);
@@ -112,7 +113,6 @@ public interface ModItems {
     private static void addIngredientEntries(FabricItemGroupEntries entries) {
         entries.add(AMARANTHINE_SHARD);
         entries.add(AMARANTHINE_DUST);
-
     }
 
     private static void addFoodEntries(FabricItemGroupEntries entries) {

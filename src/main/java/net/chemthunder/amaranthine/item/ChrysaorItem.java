@@ -65,7 +65,7 @@ public class ChrysaorItem extends Item implements CustomHitParticleItem, KillEff
     }
 
     public void postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        target.addStatusEffect(new StatusEffectInstance(ModStatusEffects.FRACTURED, 400, 0));
+
     }
 
 

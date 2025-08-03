@@ -10,7 +10,7 @@ import static net.chemthunder.amaranthine.init.ModDamageSources.impaled;
 
 public class FracturedEffect extends StatusEffect {
     public FracturedEffect() {
-        super(StatusEffectCategory.HARMFUL, 0xb0722d);
+        super(StatusEffectCategory.HARMFUL, 0xE142FD);
     }
 
     public boolean applyUpdateEffect(ServerWorld world, LivingEntity entity, int amplifier) {
@@ -20,7 +20,7 @@ public class FracturedEffect extends StatusEffect {
     }
 
     public boolean canApplyUpdateEffect(int duration, int amplifier) {
-        int i = 40;
+        int i = 20;
         return duration % i == 0;
     }
 }

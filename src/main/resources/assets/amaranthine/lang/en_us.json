@@ -6,6 +6,9 @@
      "item.amaranthine.blind_obedience": "Blind Obedience",
      "item.amaranthine.blind_obedience.desc": "A fragmented dream of a former monarch.",
 
+     "item.amaranthine.dawns_light": "Dawn's Light",
+     "item.amaranthine.dawn.desc": "The true harnessed power of the sun.",
+
      "item.amaranthine.chem_cookie": "Chem Cookie",
 
      "item.amaranthine.chrysaor": "Chrysaor",
@@ -19,7 +22,7 @@
 
      "item.amaranthine.captains_cutlass": "Captain's Cutlass",
 
-     "effect.amaranthine.fractured": "Fractured",
+     "effect.amaranthine.fractured": "Impaled",
      "effect.amaranthine.disorientated": "Disorientated",
 
      "death.attack.impaled": "%1$s was impaled with crystals",
